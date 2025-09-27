@@ -1,0 +1,90 @@
+/* Header Begin */
+
+header {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+.title-header .title {
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+}
+
+.title-header .logo {
+  display: inline-block;
+  padding: 10px 10px 
+}
+
+.title-header .logo img {
+  vertical-align: middle;
+}
+
+/* Header End */
+
+
+/* Body Begin */
+body {
+  background-color: aliceblue;
+}
+/* Body End */
+
+
+table, th, td {
+  
+  border: 4px solid;
+  width: 100%;
+  table-layout: fixed;
+  border-top-color: steelblue;
+  border-left-color: steelblue;
+  background-color: lightgrey;
+  border-spacing: 0px;
+  border-radius: 0px;
+
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-links a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+  }
+  
+  .nav-links a::after {
+    content: "|"; /* divider symbol */
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .nav-links a:last-child::after {
+    content: ""; /* remove divider from last link */
+  }
+  
+/* Footer Begin */
+
+  footer {
+    background-color: grey;
+    padding: 10px;
+  }
+
+  footer a {
+    color: beige;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
+/* Footer End */
